@@ -1,0 +1,108 @@
+body { overflow-x: hidden; margin: 0px; background-color: #FFFFFF; font-family: "Tahoma", sans-serif; }
+#header { height: 56px; }
+#page_content { margin: auto;
+    padding-left: 40px;
+    padding-right: 40px; }
+
+#menu_top, #footer { background-color: #00165D;
+    border: 1px solid #002396; padding: 0px; text-align: center; }
+
+#menu_top { width: 100%; z-index: 2147483647; border-bottom-left-radius: 60px; border-bottom-right-radius: 60px; }
+#footer { color: #FFFFFF; border-top-left-radius: 60px; border-top-right-radius: 60px; }
+
+.center, #footer { text-align: center; }
+
+#left_section { color: #FFFFFF; float: left; height: 100%; width: 18%; }
+#center_section { background-color: #5C5C5C;
+    color: #FFFFFF;
+    float: left;
+    height: 100%;
+    opacity: 0.5;
+    width: 60%; }
+#main_wall { height: 100%;
+    left: 21%;
+    position: absolute;
+    width: 54%; }
+#add_to_wall { border: 1px solid #002396;
+    border-radius: 20px;
+    height: 28px;
+    opacity: 0.8;
+    text-align: center;
+    width: 90%; }
+#right_section { color: #FFFFFF; float: right; height: 100%; width: 20%; }
+
+#chat_wall { background-color: #FFFFFF; color: #000000; overflow-x: hidden;
+    overflow-y: auto; height: 200px; font-size: 11px; margin: 10px 0px; }
+#player_wall { overflow-x: hidden;
+    overflow-y: auto; height: 200px; margin: 10px 0px; }
+#main_wall_list { overflow-x: hidden;
+    overflow-y: auto; height: 200px; margin: 10px 0px; }
+#chat_wall p span { color: #ACACAC;
+    font-size: 8px;
+    font-weight: 700; }
+#main_wall_list p span { color: #FFFFFF;
+    font-size: 8px;
+    font-weight: 700; }
+#player_wall p span { color: #FFFFFF;
+    font-size: 8px;
+    font-weight: 700; }
+#new_comment { width: 98%; height: 60px; }
+
+.core_msg  { text-align: center; width: 360px; margin-left: 822px; margin-top: -20px; position: absolute; opacity: 0.9; border: 1px solid rgba(217, 217, 217, 0.506); border-radius: 10px; box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.506); margin-bottom: 10px; margin-top: 10px; padding: 10px; }
+.core_msg_error { background-color: #FFC0C0; margin-left: 430px; }
+.core_msg_success { background-color: #92FF92; color: #008E04; }
+
+.clear { clear: both; }
+
+form { margin-bottom: 50px; margin-top: 30px; }
+
+form div.clear button { float: right; }
+
+button { cursor: pointer; background-color: #EBEBEB; border-bottom-color: #DDDDDD; border-left-color: #DDDDDD; border-right-color: #DDDDDD; border-top-color: #DDDDDD; color: #333333; border: 1px solid rgba(217, 217, 217, 0.506); border-radius: 10px; box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.506); font-weight: 700; padding: 8px; }
+button.success { background-color: #47A447; border-bottom-color: #398439; border-left-color: #398439; border-right-color: #398439; border-top-color: #398439; color: #FFFFFF; }
+button.primary { background-color: #3276B1; border-bottom-color: #285E8E; border-left-color: #285E8E; border-right-color: #285E8E; border-top-color: #285E8E; color: #FFFFFF; }
+button.info { background-color: #39B3D7; border-bottom-color: #269ABC; border-left-color: #269ABC; border-right-color: #269ABC; border-top-color: #269ABC; color: #FFFFFF; }
+button.warning { background-color: #ED9C28; border-bottom-color: #D58512; border-left-color: #D58512; border-right-color: #D58512; border-top-color: #D58512; color: #FFFFFF; }
+button.danger { background-color: #D2322D; border-bottom-color: #AC2925; border-left-color: #AC2925; border-right-color: #AC2925; border-top-color: #AC2925; color: #FFFFFF; }
+
+button:hover { box-shadow: 0px 0px 10px rgba(0, 0, 0, 1.0);  }
+button.success:hover { background-color: #009B00; }
+button.primary:hover { background-color: #3276B1; }
+button.info:hover { background-color: #00A1D1; }
+button.warning:hover { background-color: #FF9400; }
+button.danger:hover { background-color: #D40700; }
+
+form div.data, form label, form button { float: left; margin-left: 6px; margin-right: 6px; }
+form input, .icheckbox { font-weight: 700; border: 1px solid #B9B2B2; border-radius: 5px; height: 32px; width: 256px; }
+form label, form button { font-size: 12px; margin-top: 10px; }
+.icheckbox { width: 15px; height: 15px; }
+
+h1, h2 { font-family: "Monaco5", monospace; font-size: 23px; font-weight: 400; }
+h2 { font-size: 20px; text-align: center; }
+
+form h2 { background-color: #FFE38A !important; color: #000000 !important; }
+
+.control-group h2 { background-color: #545454; color: #FFFFFF; }
+
+h1.short { width: 250px; }
+
+span.small { font-size: 12px; }
+span.grey { color: #AAAAAA; }
+
+.list { background-color: #D9E2FF; border: 1px solid #95AEFF; border-radius: 10px; color: #000000; margin-bottom: 50px; padding: 10px; text-align: center; width: 100%; }
+
+.list tr th, .list tr td { border: 1px solid #95AEFF; }
+
+.error { color: #D80000; }
+
+.prod_name { color: #009C00; font-size: 24px; text-align: center; }
+.prod_price { color: #00DC00; font-size: 40px; text-align: center; }
+.prod_desc { text-align: justify; }
+.prod_img { text-align: center; }
+.prod_img img { max-width: 700px; max-height: 700px;  }
+.to_market { color: #0093A3; cursor: pointer; text-align: center; }
+.products_list { position: relative; overflow-x: hidden; overflow-y: auto; }
+
+.audiojs { width: 100% !important; }
+.audiojs .scrubber { width: 30% !important; }
+.audiojs .time { width: 30% !important; }
